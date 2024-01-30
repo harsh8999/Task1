@@ -55,6 +55,6 @@ Make sure you have Java and Maven installed on your machine.
 
 
 ### Testing
-    The project includes unit tests to ensure the correctness of the service and controller logic. Run the tests using:
+The project includes unit tests to ensure the correctness of the service and controller logic. Run the tests using:
 ```bash
 ./mvnw test

@@ -33,15 +33,28 @@ Make sure you have Java and Maven installed on your machine.
   ```json
   {
     "id": 1,
-    "name": "John Doe"
+    "name": "Harsh Nayak"
+  }
+
+- **Response:**
+  ```json
+  {
+    "id": 1,
+    "name": "Harsh Nayak"
   }
 
 ### Get a student
 
 - **Endpoint:** `GET /student/{id}`
+- **Response:**
+  ```json
+  {
+    "id": 1,
+    "name": "Harsh Nayak"
+  }
 
 
 ### Testing
-The project includes unit tests to ensure the correctness of the service and controller logic. Run the tests using:
+    The project includes unit tests to ensure the correctness of the service and controller logic. Run the tests using:
 ```bash
-    ./mvnw test
+./mvnw test
